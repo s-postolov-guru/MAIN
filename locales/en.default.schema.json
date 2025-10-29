@@ -203,6 +203,9 @@
         "bf-bundle-banner": {
             "name": "Black Friday bundle banner"
         },
+        "bf-bundle-bunner-mini": {
+            "name": "Black Friday bundle banner mini"
+        },
         "bf-banner-with-text": {
             "name": "Black Friday banner with text"
         },

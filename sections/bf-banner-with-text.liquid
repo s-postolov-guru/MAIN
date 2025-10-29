@@ -57,6 +57,11 @@
                             </div>
                         </div>
                     {% endif %}
+                    {% if section.settings.image != blank %}
+                        <div class="banner-text--media banner-text-mob-full">
+                            <img src="{{ section.settings.image | image_url }}" alt="" />
+                        </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -67,7 +72,7 @@
          loadScriptOnce('slider-script', 'https://qureskincaredns-main.com/assets/js/slider-with-thumb.js');
       });
    </script>
-
+   
 {%  schema  %}
 {
   "name": "t:sections.bf-banner-with-text.name",
